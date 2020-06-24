@@ -138,7 +138,7 @@ STATIC_URL = '/static/'
 
 REST_FRAMEWORK = {
     'DEFAULT_PERSMISSION_CLASSES' : [
-            'rest_framework.permissions.AllowAny',
+            'rest_framework.permissions.IsAuthenticated',
     ]
 
 }
