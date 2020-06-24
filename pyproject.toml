@@ -5,10 +5,11 @@ description = ""
 authors = ["Iris Leal <iris_leal_m@hotmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "~3.8"
 django = "^3.0.7"
 djangorestframework = "^3.11.0"
 psycopg2-binary = "^2.8.5"
+djangorestframework_simplejwt = "^4.4.0"
 
 [tool.poetry.dev-dependencies]
 black = "^19.10b0"
