@@ -6,3 +6,6 @@ WORKDIR /code
 COPY requirements.txt /code/
 RUN pip install -r requirements.txt
 COPY . /code/
+COPY docker-start.sh /code/docker-start.sh
+RUN chmod +x /code/docker-start.sh
+
